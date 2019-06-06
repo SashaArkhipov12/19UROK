@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+}
+.banner {
+	height: 750px;
+	background-image: url(bg.jpg);
+	background-size: 100%;
+}
+.info {
+	height: 1100px;
+	background: white;
+	padding-top: 50px;
+}
+.photo {
+	height: 1200px;
+	background-color: #C0C0C0;
+}
+.parent {
+	height: 850px;
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.block {
+	height: 500px;
+	width: 1230px;
+	display: flex;
+	margin-bottom: 30px;
+	padding-left: 70px;
+}
+.mini-block {
+	height: 500px;
+	width: 500px;
+	margin-left: 50px;
+	transition: 0.8s;
+	background: #C0C0C0;
+}
+@font-face {
+	font-family: futur;
+	src: url(futur.ttf);
+}
+.text {
+	color: white;
+	font-family: futur;
+}
+.mini-block:hover {
+	background-color: red; /*При наведении становиться тем цветом который поставили*/
+	transform: scale(1.05); /*При наведении становиться больше*/
+	opacity: 0.8; /*При наведении становиться невидемее*/
+}
+.coffee {
+	height: 500px;
+	width: 500px;
+}
+.text2 {
+	text-align: center;
+	padding-top: 250px;
+}
+.button {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 55px;
+	padding-right: 55px;
+	border: none;
+	border-radius: 3px;
+	color: white;
+}
+.m-l {
+	margin-left: 658px;
+}
+.text3 {
+	text-align: center;
+	padding-top: 10px;
+}
+.kartinka {
+	height: 500px;
+	width: 500px;
+}
+.flex {
+	display: flex;
+}
+.block1 {
+	height: 500px;
+	width: 1230px;
+	display: flex;
+	margin-bottom: 30px;
+	padding-left: 100px;
+}
+.mini-block1 {
+	height: 500px;
+	width: 500px;
+	margin-left: 100px;
+	transition: 0.8s;
+	background: #C0C0C0;
+}
+
